@@ -1,0 +1,28 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+}
+
+.tarjeta {
+    display: flex;
+    background-color: #1e1e1e;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tarjeta iframe {
+    width: 50%;
+    height: 220px;
+    border: none;
+}
+
+.texto {
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+}
